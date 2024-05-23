@@ -7,6 +7,6 @@ app.use(express.json());
 
 
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   console.log(`backend Server running at port ${3000} `);
 });
